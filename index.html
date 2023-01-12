@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Umbrella</title>
+</head>
+<body>
+    <h1>Custom Umbrella</h1>
+    <style>
+        body{
+            text-align: center;
+        }
+        #btn1{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #04A9CA;
+        }
+        #btn2{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #e10a87;
+        }
+    
+        #btn3{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ecf00b;
+        }
+    </style>
+    <div>
+        <img id="pic" src="Blue umbrella.png" width="400px">
+    </div>
+    <div>
+        <button id="btn1" onclick="change1()">1</button>
+        <button id="btn2" onclick="change2()">2</button>
+        <button id="btn3" onclick="change3()">3</button>
+    </div>
+    <script>
+    function change1(){
+        document.getElementById('pic').src='Blue umbrella.png'
+    }
+    function change2(){
+        document.getElementById('pic').src='Pink umbrella.png'
+    }
+    function change3(){
+        document.getElementById('pic').src='Yello umbrella.png'
+    }
+
+
+    </script>
+    
+</body>
+</html>
